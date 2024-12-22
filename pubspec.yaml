@@ -1,0 +1,53 @@
+name: untitled
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/a.png
+    - assets/images/b.png
+    - assets/images/c.png
+    - assets/images/d.png
+    - assets/images/e.png
+    - assets/images/f.png
+    - assets/images/g.png
+    - assets/images/h.png
+    - assets/images/i.png
+
+  fonts:
+    - family: 手写
+      fonts:
+        - asset: assets/fonts/手写.ttf
+    - family: 行书
+      fonts:
+        - asset: assets/fonts/行书.ttf
+    - family: 行草
+      fonts:
+        - asset: assets/fonts/行草.ttf
+    - family: 天行体
+      fonts:
+        - asset: assets/fonts/天行体.ttf
+    - family: Iphone
+      fonts:
+        - asset: assets/fonts/Iphone.ttf
